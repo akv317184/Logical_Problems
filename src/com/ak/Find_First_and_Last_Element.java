@@ -10,11 +10,13 @@ public class Find_First_and_Last_Element {
         al.add(378);
         al.add(5);
         al.add(89);
+        
         // Find first Element
         int first = al.get(0);
 
         // find last Element
         int last = al.get(al.size()-1);
+
         System.out.println("First element :: "+first);
         System.out.println("Last element :: "+last);
     }
