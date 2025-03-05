@@ -18,7 +18,7 @@ public class Array_sort_without_use_method {
                     temp = array[i];
                     array[i] = array[j];
                     array[j] = temp;
-                }
+                } 
             }
         }
         for(int i =0 ; i<array.length ; i++){
